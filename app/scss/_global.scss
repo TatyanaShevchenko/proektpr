@@ -1,0 +1,39 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: rgb(12, 1, 96);
+    background: linear-gradient(-180deg, rgba(12, 1, 96, 1) 0%, rgba(40, 18, 122, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: 'ProximaNova Bold';
+}
+
+button {
+    outline: none;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}

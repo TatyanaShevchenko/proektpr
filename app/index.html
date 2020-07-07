@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Проектная практика тест</title>
+    <link rel="stylesheet" href="css/libs.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <div class="header__img">
+                <img src="./images/header_logo.png" alt="" />
+            </div>
+            <div class="header__btn-box">
+                <button class="header__arrow header__arrow-left"></button>
+                <button class="header__arrow header__arrow-right"></button>
+            </div>
+            <div class="header__title">Информационная система</div>
+        </div>
+
+        <div class="header__radiobuttons">
+            <div class="header__radiobutton active">
+                <input name="r1" type="radio" id="radioToday" class="custom-radio" />
+                <label for="radioToday">Сегодня</label>
+            </div>
+
+            <div class="header__radiobutton">
+                <input name="r1" type="radio" id="threeDays" />
+                <label for="threeDays">3 дня</label>
+            </div>
+
+            <div class="header__radiobutton">
+                <input name="r1" type="radio" id="fiveDays" />
+                <label for="fiveDays">5 дней</label>
+            </div>
+
+            <div class="header__radiobutton">
+                <input name="r1" type="radio" id="sevenDays" />
+                <label for="sevenDays">7 дней</label>
+            </div>
+        </div>
+
+        <div class="header__account">
+            <button class="account-btn"></button>
+        </div>
+    </header>
+
+    <div class="main">
+
+        <div class="menu">
+            <ul class="nav__menu">
+                <li class="nav__menu-item" id="menu1"><a href="#">ИЗБРАННОЕ</a></li>
+                <li class="nav__menu-item active" id="menu2">
+                    <a href="#">ИСПОЛНИТЕЛЬСКАЯ ДИСЦИПЛИНА</a>
+                </li>
+                <li class="nav__menu-item" id="menu3">
+                    <a href="#">ЗАКОНОПРОЕКТНАЯ ДЕЯТЕЛЬНОСТЬ</a>
+                </li>
+                <li class="nav__menu-item" id="menu4">
+                    <a href="#">ОПЕРАТИВНЫЕ СОВЕЩАНИЯ ПРЕДСЕДАТЕЛЯ ПРАВИТЕЛЬСТВА РФ</a>
+                </li>
+                <li class="nav__menu-item" id="menu5">
+                    <a href="#">ИСПОЛНЕНИЕ НАЦИОНАЛЬНЫХ ПРОЕКТОВ</a>
+                </li>
+            </ul>
+            <div class="menu__btn-nav">
+                <div class="menu__btn">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <p class="menu__btn-title">СКРЫТЬ МЕНЮ</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="goalsbox">
+                <div class="goalsbox__item">
+                    <div class="goalsbox__item-inner">
+                        <div class="goalsbox__item-top">
+                            <p class="goalsbox__item-title">Всего задач</p>
+                            <p class="goalsbox__item-number">5 653</p>
+                        </div>
+
+                        <div class="goalsbox__itembox">
+                            <div class="goalsbox__itembox-top">
+                                <p class="goalsbox__itembox-title">Поручения</p>
+                                <p class="goalsbox__itembox-number">3 456</p>
+                            </div>
+
+                            <div class="goalsbox__itembox-content">
+                                <div class="content__item" id="president-rf">
+                                    <div class="content__item-top">
+                                        <div class="content__item-title">Президент РФ</div>
+                                        <div class="content__item-number">1 234</div>
+                                    </div>
+                                    <div class="content__line"></div>
+                                </div>
+
+                                <div class="content__item" id="preds-prav">
+                                    <div class="content__item-top">
+                                        <div class="content__item-title">
+                                            Предсдатель Правительства РФ
+                                        </div>
+                                        <div class="content__item-number">2 222</div>
+                                    </div>
+                                    <div class="content__line"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="goalsbox__itembox">
+                            <div class="goalsbox__itembox-top">
+                                <p class="goalsbox__itembox-title">Особый контроль</p>
+                                <p class="goalsbox__itembox-number">3 456</p>
+                            </div>
+
+                            <div class="goalsbox__itembox-content">
+                                <div class="content__item">
+                                    <div class="content__item-top">
+                                        <div class="content__item-title">Коронавирус</div>
+                                        <div class="content__item-number">567</div>
+                                    </div>
+                                    <div class="content__line"></div>
+                                </div>
+
+                                <div class="content__item" id="preds-prav">
+                                    <div class="content__item-top">
+                                        <div class="content__item-title">
+                                            Предсдатель Правительства РФ
+                                        </div>
+                                        <div class="content__item-number">456</div>
+                                    </div>
+                                    <div class="content__line"></div>
+                                </div>
+
+                                <div class="content__item">
+                                    <div class="content__item-top">
+                                        <div class="content__item-title">
+                                            Послание Президента РФ
+                                        </div>
+                                        <div class="content__item-number">456</div>
+                                    </div>
+                                    <div class="content__line"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="goalsbox__itembox">
+                            <div class="goalsbox__itembox-top">
+                                <p class="goalsbox__itembox-title">Подготовка НПА</p>
+                                <p class="goalsbox__itembox-number">1 234</p>
+                            </div>
+                            <div class="goalsbox__itembox-content" style="width: 65%;">
+                                <div class="content__line"></div>
+                            </div>
+                        </div>
+
+                        <div class="goalsbox__itembox">
+                            <div class="goalsbox__itembox-top">
+                                <p class="goalsbox__itembox-title">Национальные проекты</p>
+                                <p class="goalsbox__itembox-number">567</p>
+                            </div>
+                            <div class="goalsbox__itembox-content" style="width: 35%;">
+                                <div class="content__line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="goalsbox__item ne-ispolneno">
+                    <div class="goalsbox__item-inner">
+                        <div class="goalsbox__item-top">
+                            <p class="goalsbox__item-title">Не исполнено</p>
+                            <p class="goalsbox__item-number">10</p>
+                        </div>
+
+                        <div class="goalsbox__itembox">
+                            <div class="goalsbox__itembox-top">
+                                <p class="goalsbox__itembox-title">Поручения</p>
+                                <p class="goalsbox__itembox-number">3 456</p>
+                            </div>
+
+                            <div class="goalsbox__itembox-content">
+                                <div class="content__item" id="president-rf">
+                                    <div class="content__item-top">
+                                        <div class="content__item-title">Президент РФ</div>
+                                        <div class="content__item-number">1 234</div>
+                                    </div>
+                                    <div class="content__line"></div>
+                                </div>
+
+                                <div class="content__item" id="preds-prav">
+                                    <div class="content__item-top">
+                                        <div class="content__item-title">
+                                            Предсдатель Правительства РФ
+                                        </div>
+                                        <div class="content__item-number">2 222</div>
+                                    </div>
+                                    <div class="content__line"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="goalsbox__itembox">
+                            <div class="goalsbox__itembox-top">
+                                <p class="goalsbox__itembox-title">Особый контроль</p>
+                                <p class="goalsbox__itembox-number">3 456</p>
+                            </div>
+
+                            <div class="goalsbox__itembox-content">
+                                <div class="content__item">
+                                    <div class="content__item-top">
+                                        <div class="content__item-title">Коронавирус</div>
+                                        <div class="content__item-number">567</div>
+                                    </div>
+                                    <div class="content__line"></div>
+                                </div>
+
+                                <div class="content__item" id="preds-prav">
+                                    <div class="content__item-top">
+                                        <div class="content__item-title">
+                                            Предсдатель Правительства РФ
+                                        </div>
+                                        <div class="content__item-number">456</div>
+                                    </div>
+                                    <div class="content__line"></div>
+                                </div>
+
+                                <div class="content__item">
+                                    <div class="content__item-top">
+                                        <div class="content__item-title">
+                                            Послание Президента РФ
+                                        </div>
+                                        <div class="content__item-number ok-small"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="goalsbox__itembox">
+                            <div class="goalsbox__itembox-top">
+                                <p class="goalsbox__itembox-title">Подготовка НПА</p>
+                                <p class="goalsbox__itembox-number">2</p>
+                            </div>
+                            <div class="goalsbox__itembox-content" style="width: 75%;">
+                                <div class="content__line"></div>
+                            </div>
+                        </div>
+
+                        <div class="goalsbox__itembox">
+                            <div class="goalsbox__itembox-top">
+                                <p class="goalsbox__itembox-title">Национальные проекты</p>
+                                <p class="goalsbox__itembox-number">3</p>
+                            </div>
+                            <div class="goalsbox__itembox-content" style="width: 100%;">
+                                <div class="content__line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="slider__inner">
+
+
+                    <div class="slider__item">
+                        <p class="slider__item-name">Голикова Татьяна Алексеевна
+                        </p>
+                        <div class="slider__item-box">
+                            <div class="slider__item-number">7</div>
+                            <div class="slider__item-imagebg">
+                                <img class="slider__item-image" src="./images/user_golikova.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="slider__item">
+                        <p class="slider__item-name">Хуснуллин Марат Шакирзянович
+                        </p>
+                        <div class="slider__item-box">
+                            <div class="slider__item-number">6</div>
+                            <div class="slider__item-imagebg">
+                                <img class="slider__item-image" src="./images/user_husnullin.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="slider__item">
+                        <p class="slider__item-name">Белоусов Андрей Рэмович
+                        </p>
+                        <div class="slider__item-box">
+                            <div class="slider__item-number">5</div>
+                            <div class="slider__item-imagebg">
+                                <img class="slider__item-image" src="./images/user_belousov.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="slider__item">
+                        <p class="slider__item-name">Григоренко Дмитрий Юрьевич
+                        </p>
+                        <div class="slider__item-box">
+                            <div class="slider__item-number">1</div>
+                            <div class="slider__item-imagebg">
+                                <img class="slider__item-image" src="./images/user_grigorenko.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="slider__item">
+                        <p class="slider__item-name">Борисов Юрий Иванович
+                        </p>
+                        <div class="slider__item-box">
+                            <div class="slider__item-number ok-large"></div>
+                            <div class="slider__item-imagebg">
+                                <img class="slider__item-image" src="./images/user_borisov.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="slider__item">
+                        <p class="slider__item-name">Абрамченко Виктория Валериевна
+                        </p>
+                        <div class="slider__item-box">
+                            <div class="slider__item-number ok-large"></div>
+                            <div class="slider__item-imagebg">
+                                <img class="slider__item-image" src="./images/user_abramchenko.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <p class="slider__item-name">Абрамченко Виктория Валериевна
+                        </p>
+                        <div class="slider__item-box">
+                            <div class="slider__item-number ok-large"></div>
+                            <div class="slider__item-imagebg">
+                                <img class="slider__item-image" src="./images/user_abramchenko.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <p class="slider__item-name">Борисов Юрий Иванович
+                        </p>
+                        <div class="slider__item-box">
+                            <div class="slider__item-number ok-large"></div>
+                            <div class="slider__item-imagebg">
+                                <img class="slider__item-image" src="./images/user_borisov.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider__item">
+                        <p class="slider__item-name">Григоренко Дмитрий Юрьевич
+                        </p>
+                        <div class="slider__item-box">
+                            <div class="slider__item-number">1</div>
+                            <div class="slider__item-imagebg">
+                                <img class="slider__item-image" src="./images/user_grigorenko.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider__item">
+                        <p class="slider__item-name">Белоусов Андрей Рэмович
+                        </p>
+                        <div class="slider__item-box">
+                            <div class="slider__item-number">5</div>
+                            <div class="slider__item-imagebg">
+                                <img class="slider__item-image" src="./images/user_belousov.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider__item">
+                        <p class="slider__item-name">Хуснуллин Марат Шакирзянович
+                        </p>
+                        <div class="slider__item-box">
+                            <div class="slider__item-number">6</div>
+                            <div class="slider__item-imagebg">
+                                <img class="slider__item-image" src="./images/user_husnullin.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <p class="slider__item-name">Голикова Татьяна Алексеевна
+                        </p>
+                        <div class="slider__item-box">
+                            <div class="slider__item-number">7</div>
+                            <div class="slider__item-imagebg">
+                                <img class="slider__item-image" src="./images/user_golikova.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
