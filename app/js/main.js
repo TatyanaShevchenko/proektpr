@@ -2,14 +2,15 @@ $(document).ready(function() {
     let sliderWidth = $("div.slider").width();
     $(".slider__inner").width(sliderWidth - 120);
 
-    function repaintSlider(days) {
 
-    }
+    const domContainer = document.querySelector('#react_slider');
+
 
     $.fn.repaint = function() {
-        var display = this.css('display');
-        this.css('display', 'none');
-        this.css('display', display);
+        // var display = this.css('display');
+        // this.css('display', 'none');
+        // this.css('display', display);
+
         console.log('Repaint!')
     };
 
@@ -34,7 +35,7 @@ $(document).ready(function() {
             elements[i].classList.remove("active");
         }
         var el = $(this);
-        $('.slider__inner').repaint();
+        $('#react_slider').repaint();
         el.toggleClass("active");
     });
 
